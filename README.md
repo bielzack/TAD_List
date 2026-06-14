@@ -74,7 +74,6 @@ Sair: Fecha o programa após liberar a memória alocada, contando com uma trava 
 
 
 Disciplina: Estruturas de Dados I
-Aluno:Gabriel Serra Bastos.
 
 Aluno: Gabriel Serra Bastos
 
