@@ -1,3 +1,7 @@
+# Gerenciador de Playlists (TAD Lista Encadeada)
+
+## Descrição do Projeto
+
 Este projeto foi desenvolvido na linguagem C com a finalidade de implementar uma Lista Encadeada Simples, explorando conceitos fundamentais como ponteiros, alocação dinâmica de memória e manipulação de estruturas de dados. Para demonstrar o funcionamento dessa estrutura de forma prática, foi criada uma aplicação de gerenciamento de músicas. Por meio dela, o usuário pode adicionar músicas em duas playlists diferentes (Playlist 01 e Playlist 02), excluir músicas com base em critérios específicos, realizar operações de união e interseção entre as playlists e gerar uma terceira lista contendo os resultados dessas operações, tudo através de um menu interativo executado no terminal.
 
 ## Estrutura das musicas:
@@ -8,16 +12,6 @@ Este projeto foi desenvolvido na linguagem C com a finalidade de implementar uma
 ---
 
 ## 2. Compilação e Execução
-Se os seus arquivos estiverem dentro de uma subpasta chamada `scr`, entre nela primeiro:
-```bash
-cd scr
-E execute:
-
-**Ambiente Windows:**
-```cmd
-gcc scr/main.c scr/sllist.c -o programa
-./progra
-
 
 Se os seus arquivos estiverem dentro de uma subpasta chamada `scr`, entre nela primeiro:
 ```bash
