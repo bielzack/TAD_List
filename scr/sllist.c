@@ -72,8 +72,9 @@ int sllInsertAsLast(SLList *l, void *data){
             } else {
                 l->first = newnode;
             }
+            return TRUE;
         }
-        return TRUE;
+        
     }
     return FALSE;
 }
