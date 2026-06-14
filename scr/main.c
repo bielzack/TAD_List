@@ -83,7 +83,7 @@ int main(){
                     if(musicaC1 != NULL){
                         printf("Titulo da musica: ");
                         fgets(musicaC1->titulo, 100, stdin);
-                        musicaC1->titulo[strcspn(musicaC1->titulo, "\n")] = '\0'; // Remove o \n do final
+                        musicaC1->titulo[strcspn(musicaC1->titulo, "\n")] = '\0'; 
 
                         printf("Artista/Banda: ");
                         fgets(musicaC1->artista, 100, stdin);
@@ -185,7 +185,7 @@ int main(){
                     printf("\nRemover musica da Playlist 02 por:\n 1-Titulo \n 2-Artista\n 3-Ano\n");
                     printf("Opcao: ");
                     scanf("%d", &OptionDelet);
-                    getchar(); // Limpa buffer para o submenu
+                    getchar(); 
 
                     if(OptionDelet == 1){
                         char titulo[100];
@@ -210,7 +210,7 @@ int main(){
                     }
                             
                     if(delet != NULL){
-                        free(delet); // CORRIGIDO: Antes estava free(OptionDelet), o que quebrava o programa
+                        free(delet); 
                         printf("\nMusica removida de Playlist 02 com sucesso!\n");
                     }else{
                         printf("\nMusica nao encontrada na Playlist 02!\n");
