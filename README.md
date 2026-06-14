@@ -33,7 +33,7 @@ gcc scr/main.c scr/sllist.c -o programa.exe
 gcc scr/main.c scr/sllist.c -o programa
 ./programa
 
-## 3. Funcionalidades Implementadas
+# 3. Funcionalidades Implementadas
 O sistema dispõe de um menu interativo com as seguintes operações:
 
 1 - Inserir música na Playlist 01: Aloca dinamicamente uma música e a insere no início da lista.
